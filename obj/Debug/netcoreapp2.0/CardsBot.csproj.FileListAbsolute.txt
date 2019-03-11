@@ -1,0 +1,12 @@
+/home/ec2016/ra172358/microsoft/BotBuilder-Samples/samples/csharp_dotnetcore/06.using-cards/bin/Debug/netcoreapp2.0/using-cards.bot
+/home/ec2016/ra172358/microsoft/BotBuilder-Samples/samples/csharp_dotnetcore/06.using-cards/bin/Debug/netcoreapp2.0/CardsBot.deps.json
+/home/ec2016/ra172358/microsoft/BotBuilder-Samples/samples/csharp_dotnetcore/06.using-cards/bin/Debug/netcoreapp2.0/CardsBot.runtimeconfig.json
+/home/ec2016/ra172358/microsoft/BotBuilder-Samples/samples/csharp_dotnetcore/06.using-cards/bin/Debug/netcoreapp2.0/CardsBot.runtimeconfig.dev.json
+/home/ec2016/ra172358/microsoft/BotBuilder-Samples/samples/csharp_dotnetcore/06.using-cards/bin/Debug/netcoreapp2.0/CardsBot.dll
+/home/ec2016/ra172358/microsoft/BotBuilder-Samples/samples/csharp_dotnetcore/06.using-cards/bin/Debug/netcoreapp2.0/CardsBot.pdb
+/home/ec2016/ra172358/microsoft/BotBuilder-Samples/samples/csharp_dotnetcore/06.using-cards/obj/Debug/netcoreapp2.0/CardsBot.csprojAssemblyReference.cache
+/home/ec2016/ra172358/microsoft/BotBuilder-Samples/samples/csharp_dotnetcore/06.using-cards/obj/Debug/netcoreapp2.0/CardsBot.csproj.CoreCompileInputs.cache
+/home/ec2016/ra172358/microsoft/BotBuilder-Samples/samples/csharp_dotnetcore/06.using-cards/obj/Debug/netcoreapp2.0/CardsBot.AssemblyInfoInputs.cache
+/home/ec2016/ra172358/microsoft/BotBuilder-Samples/samples/csharp_dotnetcore/06.using-cards/obj/Debug/netcoreapp2.0/CardsBot.AssemblyInfo.cs
+/home/ec2016/ra172358/microsoft/BotBuilder-Samples/samples/csharp_dotnetcore/06.using-cards/obj/Debug/netcoreapp2.0/CardsBot.dll
+/home/ec2016/ra172358/microsoft/BotBuilder-Samples/samples/csharp_dotnetcore/06.using-cards/obj/Debug/netcoreapp2.0/CardsBot.pdb

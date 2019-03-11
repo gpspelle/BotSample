@@ -3,6 +3,7 @@
 
 using System;
 using System.Net;
+using System.Text;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -82,16 +83,20 @@ namespace Microsoft.BotBuilderSamples
                 var results = await dialogContext.ContinueDialogAsync(cancellationToken);
 
                 var string_message = turnContext.Activity.Text;
+                StringBuilder bla = new StringBuilder(string_message);
+                
                 
                 for(int i = 0; i < string_message.Length; i++) {
-                    if(string_message[i] == ' ') {
-                        string_message[i] = '+';
+                    if(bla[i] == ' ') {
+                            bla[i] = '+';
                     }
                 }
 
                 Console.WriteLine("mensagem: {0}", string_message);                
-
-                var json = new WebClient().DownloadString("http://www.omdbapi.com/?t=" + string_message);
+                WebClient client = new WebClient();
+                client.UseDefaultCredentials = true;
+                
+                var json = client.DownloadString("http://www.omdbapi.com/?t=" + string_message);
                 
                 Console.WriteLine("mensagem: {0}", json);
 

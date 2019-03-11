@@ -136,7 +136,7 @@ namespace Microsoft.BotBuilderSamples
                 if (member.Id != turnContext.Activity.Recipient.Id)
                 {
                     var reply = turnContext.Activity.CreateReply();
-                    reply.Text = $"Welcome to CardBot {member.Name}. {WelcomeText}";
+                    reply.Text = $"Seja bem vindo ao BOT do Barney e do Pellegrino. Digite o nome do filme que você deseja consultar.";
                     await turnContext.SendActivityAsync(reply, cancellationToken);
                 }
             }

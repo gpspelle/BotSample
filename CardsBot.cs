@@ -100,6 +100,9 @@ namespace Microsoft.BotBuilderSamples
                 
                 Console.WriteLine("mensagem: {0}", json);
 
+                var responseMessage = json;
+                await turnContext.SendActivityAsync(responseMessage);
+                
                 if (results.Status == DialogTurnStatus.Empty)
                 {
                     await dialogContext.BeginDialogAsync("cardSelector", cancellationToken: cancellationToken);

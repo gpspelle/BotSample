@@ -92,11 +92,11 @@ namespace Microsoft.BotBuilderSamples
                     }
                 }
 
-                Console.WriteLine("mensagem: {0}", string_message);                
+                Console.WriteLine("mensagem: {0}", bla);                
                 WebClient client = new WebClient();
                 client.UseDefaultCredentials = true;
                 
-                var json = client.DownloadString("http://www.omdbapi.com/?t=" + string_message);
+                var json = client.DownloadString("http://www.omdbapi.com/?t=" + bla+"&apikey=7752a796");
                 
                 Console.WriteLine("mensagem: {0}", json);
 
